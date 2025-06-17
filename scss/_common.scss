@@ -1,0 +1,53 @@
+.d-flex {
+    display: flex;
+}
+
+.between {
+    justify-content: space-between;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.text-dark {
+    color: $brand-blue;
+}
+
+.color-red {
+    color: $brand-main;
+}
+
+.text-cancel {
+    color: #ced7e1;
+}
+
+#selectLanguage {
+    transform: translateY(-50%);
+    z-index: 5;
+    font-size: 1.5rem;
+    font-weight: 700;
+    background-color: transparent;
+    margin-right: 20px;
+    margin-top: 19px;
+
+    color: $white;
+    transition: background-color 0.3s;
+    font-weight: 500;
+
+    option {
+        color: $brand-blue;
+    }
+
+    @include responsive(800px) {
+        margin-right: -5px;
+    }
+
+    @include responsive(500px) {
+        right: 0;
+    }
+}

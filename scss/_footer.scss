@@ -1,0 +1,154 @@
+footer {
+    background-color: #1a1e38;
+    color: #c6c5ce;
+    border-top: 2px solid #ecf2fb;
+    padding-top: 5rem;
+    font-size: 2rem;
+    font-size: 1.4rem;
+    line-height: 165%;
+
+    margin: 20px;
+    border-radius: 20px;
+
+    z-index: 1;
+    position: relative;
+
+    p {
+        color: $white;
+    }
+
+    .footer_description {
+        max-width: 100%;
+    }
+
+    .d-flex {
+        justify-content: space-between;
+
+        h4 {
+            margin-bottom: $gutter * 3;
+            color: rgb(176, 176, 193);
+        }
+
+        a {
+            color: $white;
+            margin: $gutter 0;
+
+            &:hover {
+                color: $brand-main;
+            }
+        }
+
+        address {
+            a {
+                display: flex;
+                align-items: center;
+                margin-bottom: $gutter * 3;
+            }
+            span {
+                margin-right: $gutter * 2;
+            }
+        }
+
+        ul {
+            li {
+                display: flex;
+                align-items: center;
+
+                span {
+                    margin-right: $gutter;
+                    display: flex;
+                    align-items: center;
+                    color: $white;
+                }
+            }
+        }
+    }
+
+    .sociais {
+        display: flex;
+        align-items: center;
+
+        li {
+            background-color: $white;
+            padding: 6px;
+            margin-left: 5px;
+            border-radius: 50px;
+        }
+        a {
+            margin: 0;
+        }
+    }
+
+    .credits {
+        border-top: 1px solid #273256;
+        padding: 3rem;
+        margin-top: $gutter * 8;
+        position: relative;
+        background-color: #1a1e38;
+        border-radius: 0 0 20px 20px;
+
+        .btn-top {
+            position: absolute;
+            top: -18px;
+            left: 50%;
+            -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+            background-color: $white;
+            border-radius: 80px;
+            width: 34px;
+            height: 34px;
+            border: 1px solid #e1e1e1;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            -webkit-box-shadow: 2px 6px 10px 2px rgba(0, 0, 0, 0.2);
+            box-shadow: 2px 6px 10px 2px rgba(0, 0, 0, 0.2);
+            transition: all 0.2s ease-in;
+
+            svg {
+                transition: transform 0.3s ease;
+            }
+
+            &:hover {
+                border: 1px solid $brand-main;
+                svg {
+                    transform: translateY(-3px);
+                }
+            }
+        }
+
+        .container {
+            @include flex(row, center, space-between);
+        }
+
+        .e-font-icon-svg {
+            width: 24px;
+            color: $brand-green;
+            margin-right: $gutter * 2;
+        }
+    }
+
+    @include responsive(600px) {
+        margin: 10px;
+        .d-flex {
+            flex-direction: column;
+            h4 {
+                margin: ($gutter * 3) 0;
+            }
+        }
+        .wps-games {
+            margin-top: $gutter * 2;
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    @include responsive(500px) {
+        .credits {
+            z-index: 11;
+            // background-color: $green;
+        }
+    }
+}
