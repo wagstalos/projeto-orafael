@@ -64,3 +64,19 @@
         font-size: 1.5rem;
     }
 }
+
+.btn-portal {
+    font-size: 1.6rem;
+    color: #3866fb;
+    display: flex;
+    align-items: center;
+    margin-top: $gutter * 2;
+
+    svg{
+        margin-right: $gutter;
+    }
+
+    &:hover{
+        color: $brand-blue;
+    }
+}

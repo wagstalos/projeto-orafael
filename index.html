@@ -21,7 +21,7 @@
   <header class="scrolled">
     <div class="container">
       <a href="#hero" class="logo">
-        <img src="assets/orafaeloficial_logo.png" alt="e" width="160px" />
+        <img src="assets/orafaeloficial_logo.png" alt="logo" width="160px" />
       </a>
       <nav>
         <ul>
@@ -183,7 +183,8 @@
               </svg>
 
             </a>
-            <p class="color-light-200 ml-4">+ <b id="contador">0</b> <span data-i18n="hero_linkedin_followers">seguidores
+            <p class="color-light-200 ml-4">+ <b id="contador">0</b> <span
+                data-i18n="hero_linkedin_followers">seguidores
                 no Linkedin</span> </p>
           </div>
 
@@ -260,13 +261,18 @@
         </div>
 
         <div class="s-hero__image mx-auto" data-aos="fade-down" data-aos-duration="1000" style="position: relative;">
-          <img src="assets/hero.png" class="mx-auto " alt="Rafael" lazy="loading" width="350px" height="auto">
+          <div class="rafael" style="position: relative;">
+            <img src="assets/hero.png" class="mx-auto " alt="Rafael" lazy="loading" width="450px" height="auto">
+          </div>
+
           <img src="assets/card1.svg" data-aos="fade-down" data-aos-duration="1500" alt="" width="160"
             class="s-hero__image-card1 js-tilt">
           <img src="assets/card2.png" alt="" width="100" data-aos="fade-up" data-aos-duration="1500"
-            class="s-hero__image-card2 js-tilt">
+            class="s-hero__image-card2 js-tilt float-animation">
           <img src="assets/card3.svg" data-aos="fade-right" data-aos-duration="1500" alt="" width="80"
-            class="s-hero__image-card3 js-tilt">
+            class="s-hero__image-card3 js-tilt ">
+
+
         </div>
       </div>
 
@@ -349,25 +355,82 @@
   <section class="s-about" id="about">
 
     <div class="container">
-      <span class="subtitle">Conheça o Rafael Oficial</span>
-      <h2 class="title-section text-dark">Nossa História</h2>
+      <span class="subtitle">Sobre </span>
+      <h2 class="title-section text-dark">Quem sou</h2>
 
       <div class="d-flex">
-        <div class="s-about__image mx-auto" data-aos="fade-right" data-aos-duration="1500">
-          <img src="assets/hero.webp" class="mx-auto" width="300" alt="empresa" lazy="loading" class="mx-auto">
-        </div>
-
-        <div class="s-about__text" data-aos="fade-up" data-aos-duration="1500">
-
-          <img src="assets/icon-chart.svg" alt="ícone gráfico" title="icone">
+        <div class="s-about__text" data-aos="fade-left" data-aos-duration="1500">
           <h3 class="s-about__text-title"> O Rafael</h3>
           <p class="mt-5">
-            Sou especialista em ferramentas Atlassian, com foco em Jira, Confluence e Jira Service Management. Produzo
-            conteúdo educacional em português para profissionais que buscam aprimorar suas habilidades em gestão ágil e
-            automação de processos. Com experiência prática em implementação e administração dessas ferramentas,
-            compartilho dicas, tutoriais e melhores práticas para ajudar equipes a alcançar eficiência operacional.</p>
+            Especialista em ferramentas Atlassian, com foco em Jira, Confluence e Jira Service Management. Produzo
+            conteúdos em português sobre gestão ágil e automação de processos.</p>
+
+          <p class="hr-r">
+            Fundou a consultoria ORafaelOficial em 2021 e, desde então, vem construindo uma sólida carteira de
+            clientes
+            atendidos com excelência.
+          </p>
+
+          <a href="https://orafaeloficial.atlassian.net/servicedesk/customer/portal/1" class="btn-portal" target="_blank"
+            rel="noopener noreferrer">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="icon icon-tabler icons-tabler-outline icon-tabler-external-link">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M12 6h-6a2 2 0 0 0 -2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-6" />
+              <path d="M11 13l9 -9" />
+              <path d="M15 4h5v5" />
+            </svg>
+            Acesse meu portal
+          </a>
+
         </div>
+        <div class="s-about__image mx-auto" data-aos="fade-right" data-aos-duration="1500">
+          <img src="assets/orafaelsobre.png" class="mx-auto" width="400" alt="empresa" lazy="loading" class="mx-auto">
+        </div>
+
+
+        <div class="s-about__text2" data-aos="fade-up" data-aos-duration="1500">
+
+          <p class="mt-5">
+            Com mais de 10 anos de experiência em implantação, troubleshooting e treinamento, ajudo equipes a melhorarem
+            sua eficiência operacional.
+          </p>
+
+          <ul class="align-center">
+            <li>
+              <img src="assets/icon-user.svg" alt="icon user">
+              <h3>+ 6 mil</h3>
+              <p>Usuário treinados</p>
+            </li>
+            <li>
+              <img src="assets/icon-country.svg" alt="icon country">
+              <h3>+ 4 países</h3>
+              <p>Atuando em clientes</p>
+            </li>
+          </ul>
+
+          <p class="footer">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"
+              class="icon icon-tabler icons-tabler-filled icon-tabler-info-square-rounded">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path
+                d="M12 2l.642 .005l.616 .017l.299 .013l.579 .034l.553 .046c4.687 .455 6.65 2.333 7.166 6.906l.03 .29l.046 .553l.041 .727l.006 .15l.017 .617l.005 .642l-.005 .642l-.017 .616l-.013 .299l-.034 .579l-.046 .553c-.455 4.687 -2.333 6.65 -6.906 7.166l-.29 .03l-.553 .046l-.727 .041l-.15 .006l-.617 .017l-.642 .005l-.642 -.005l-.616 -.017l-.299 -.013l-.579 -.034l-.553 -.046c-4.687 -.455 -6.65 -2.333 -7.166 -6.906l-.03 -.29l-.046 -.553l-.041 -.727l-.006 -.15l-.017 -.617l-.004 -.318v-.648l.004 -.318l.017 -.616l.013 -.299l.034 -.579l.046 -.553c.455 -4.687 2.333 -6.65 6.906 -7.166l.29 -.03l.553 -.046l.727 -.041l.15 -.006l.617 -.017c.21 -.003 .424 -.005 .642 -.005zm0 9h-1l-.117 .007a1 1 0 0 0 0 1.986l.117 .007v3l.007 .117a1 1 0 0 0 .876 .876l.117 .007h1l.117 -.007a1 1 0 0 0 .876 -.876l.007 -.117l-.007 -.117a1 1 0 0 0 -.764 -.857l-.112 -.02l-.117 -.006v-3l-.007 -.117a1 1 0 0 0 -.876 -.876l-.117 -.007zm.01 -3l-.127 .007a1 1 0 0 0 0 1.986l.117 .007l.127 -.007a1 1 0 0 0 0 -1.986l-.117 -.007z" />
+            </svg>
+            <span>Convidado pela <b>Atlassian</b> para ser creator de conteúdo e instrutor na plataforma
+              oficial da
+              Atlassian.</span>
+
+          </p>
+
+        </div>
+
+
       </div>
+    </div>
+
+    <div class="marquee">
+      <h3>Especialista Atlassian, com duas certificações internacionais: ACP-120 e ACP-620.</h2>
     </div>
 
   </section>
@@ -491,7 +554,7 @@
           </svg>
           <h3>Atendimento</h3>
           <p>
-            Segunda à sexta das 08:00h às 18:00h</p>
+            Segunda à sexta das 08:00h às 17:00h</p>
           <a href="" class="btn-contact">
             <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-right" width="20"
               height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round"
@@ -569,7 +632,7 @@
               <span>
                 <img src="assets/icon-mail.svg" alt="icone email">
               </span>
-              <a href="mailto:">contato@orafael.com.br</a>
+              <a href="mailto:rafael@orafaeloficial.com.br">rafael@orafaeloficial.com.br</a>
 
             </li>
 
@@ -604,7 +667,7 @@
 
             <li>
               <a
-                href="https://api.whatsapp.com/send?l=pt_BR&phone=5517991159476&text=Ol%C3%A1%2C%20vim%20atrav%C3%A9s%20do%20site."><img
+                href="https://api.whatsapp.com/send?l=pt_BR&phone=5511961352668&text=Ol%C3%A1%2C%20vim%20atrav%C3%A9s%20do%20site."><img
                   src="assets/icon-whats.svg" alt="icone whatsapp" width="24"></a>
 
             </li>
@@ -664,7 +727,7 @@
   </footer>
 
   <div class="btn-whats" id="whatsAppBtn" style="display: block;">
-    <a href="https://api.whatsapp.com/send?l=pt_BR&amp;phone=55119999999" target="_blank"
+    <a href="https://api.whatsapp.com/send?l=pt_BR&amp;phone=5511961352668" target="_blank"
       aria-label="instagram da backlgrs"><svg xmlns="http://www.w3.org/2000/svg"
         class="icon-tabler icon-tabler-brand-whatsapp" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5"
         stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
