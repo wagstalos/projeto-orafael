@@ -130,7 +130,6 @@
 
         &__text {
             width: 100%;
-            
 
             p {
                 text-align: left;
@@ -143,18 +142,17 @@
                 }
             }
 
-            img, {
+            img {
                 margin: 0 auto;
             }
-            .btn-portal{
+            .btn-portal {
                 text-align: center;
-              justify-content: center;
+                justify-content: center;
             }
         }
 
         &__text2 {
             width: 100%;
-
         }
     }
 }
