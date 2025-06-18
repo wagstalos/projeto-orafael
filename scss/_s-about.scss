@@ -8,16 +8,16 @@
     }
 
     .marquee {
-        border: 1px solid #f4f4f4;
+        border-bottom: 1px solid #f4f4f4;
         margin-top: 39px;
         width: 100%;
         overflow: hidden;
         white-space: nowrap;
         box-sizing: border-box;
-        background-color: #1a1e38;
+        // background-color: #1a1e38;
         h3 {
             font-size: 27px;
-            font-weight: 700;
+            font-weight: 500;
             color: $brand-green;
             padding: 15px;
 

@@ -59,11 +59,11 @@
         }
 
         .description {
-            max-width: 70rem;
+            font-size: 1.8rem;
+            max-width: 65rem;
             margin-top: 3.4rem;
             margin-bottom: 4rem;
             font-weight: 400;
-            font-size: 1.6rem;
             line-height: 150%;
             color: $white;
             opacity: 0.9;
@@ -73,6 +73,7 @@
                 color: black;
                 border-radius: 15px;
                 white-space: nowrap;
+                font-size: 1.6rem;
             }
         }
     }

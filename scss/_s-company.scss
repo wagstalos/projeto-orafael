@@ -1,0 +1,88 @@
+.s-company {
+    padding: 140px 0 90px;
+    background-image: url(../assets/bg-company.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    .d-flex {
+        justify-content: space-between;
+    }
+
+    &__text {
+        width: 35%;
+
+        .subtitle {
+            color: $brand-green;
+            text-align: left;
+            display: contents;
+        }
+
+        .title-section {
+            text-align: left;
+        }
+
+        &-description {
+            color: $white;
+            margin-top: 50px;
+            font-size: 3rem;
+        }
+    }
+
+    &__cards {
+        display: flex;
+        justify-content: space-evenly;
+        width: 60%;
+        .card {
+            position: relative;
+            max-width: 300px;
+            color: $white;
+            background-color: #05052b;
+            border-radius: 20px;
+            padding: 17px;
+            border: 1px solid #1c355d;
+            // border-image: linear-gradient(to right, #17175f, #075f5f, #17175f) 1;
+
+            h3 {
+                margin-top: 50%;
+                margin-bottom: 24px;
+            }
+            img {
+                position: absolute;
+                top: -88px;
+                right: 23px;
+                max-width: 236px;
+            }
+        }
+    }
+
+    @include responsive($tablet) {
+        .d-flex {
+            flex-direction: column;
+        }
+        &__text {
+            width: 100%;
+            &-description {
+                font-size: 1.8rem;
+            }
+        }
+
+        &__cards {
+            width: 100%;
+            .card {
+                margin-top: 20%;
+            }
+        }
+    }
+
+    @include responsive($mobile) {
+        &__cards {
+            flex-direction: column;
+            align-items: center;
+
+            .card {
+                margin-top: 30%;
+            }
+        }
+    }
+}
