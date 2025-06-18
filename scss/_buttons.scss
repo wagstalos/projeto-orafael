@@ -71,12 +71,13 @@
     display: flex;
     align-items: center;
     margin-top: $gutter * 2;
+    font-weight: 700;
 
     svg{
-        margin-right: $gutter;
+        margin-left: $gutter;
     }
 
     &:hover{
-        color: $brand-blue;
+        color: #224cd5;
     }
 }

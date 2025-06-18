@@ -18,7 +18,7 @@
         h3 {
             font-size: 27px;
             font-weight: 500;
-            color: $brand-green;
+            color: #7b809e;
             padding: 15px;
 
             display: inline-block;
@@ -59,10 +59,7 @@
 
         .hr-r {
             margin-top: auto;
-            display: flex;
-            align-items: flex-start;
-            justify-content: flex-start;
-            flex-direction: row;
+
             gap: 1.6rem;
             padding-top: 2rem;
             border-top: 0.1rem solid rgb(233, 233, 233);
