@@ -1,6 +1,5 @@
 .s-service {
     padding: 90px 0;
-    // background: linear-gradient(180deg, rgba(218, 247, 245, 0) 6.5%, #eff7da 60.89%, rgba(218, 247, 245, 0) 98.72%);
 
     .box-container {
         display: flex;
@@ -93,7 +92,7 @@
             left: 10%;
 
             &:hover {
-                background-color: $green;
+                background-color: #2f57d9;
             }
         }
 
@@ -130,7 +129,6 @@
                 font-size: 2.5rem;
             }
             div {
-                // text-align: center;
                 width: 48%;
                 margin-bottom: 12px;
                 align-items: center;
@@ -142,7 +140,7 @@
         }
     }
 
-    @include responsive(640px) {
+    @include responsive($mobile) {
         .d-flex {
             // flex-direction: column-reverse;
             margin-top: 4.5rem;
