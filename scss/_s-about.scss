@@ -57,14 +57,14 @@
             position: relative;
             font-size: 45px;
             color: #274084;
-            &::before {
-                content: " ";
-                position: absolute;
-                width: 62px;
-                height: 2px;
-                bottom: -8px;
-                background-color: $brand-green;
-            }
+            // &::before {
+            //     content: " ";
+            //     position: absolute;
+            //     width: 62px;
+            //     height: 2px;
+            //     bottom: -8px;
+            //     background-color: $brand-green;
+            // }
         }
 
         .hr-r {

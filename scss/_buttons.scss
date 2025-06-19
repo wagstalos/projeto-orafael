@@ -8,6 +8,7 @@
     font-weight: 400;
 
     border-radius: 30px;
+    white-space: nowrap;
 }
 
 .btn-primary {
@@ -73,11 +74,11 @@
     margin-top: $gutter * 2;
     font-weight: 700;
 
-    svg{
+    svg {
         margin-left: $gutter;
     }
 
-    &:hover{
+    &:hover {
         color: #224cd5;
     }
 }

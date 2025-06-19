@@ -24,11 +24,9 @@ document.addEventListener("DOMContentLoaded", function () {
           hero_linkedin_followers: "seguidores no LinkedIn ",
 
           hero_description:
-            "Com a força dos vikings transformando cliques em conquistas virtuais. A saga da sua presença online começa conosco.",
+            "Atuamos como parceiros estratégicos no desenvolvimento e implementação de ferramentas como:",
           hero_button: "Nossos serviços",
           hero_button_header: "Falar com especialistas",
-          hero_sfcc: "Projetos SFCC",
-          hero_lp: "Landing pages",
 
           contact_title:
             "Embarque nesta Jornada Épica com os Vikings Digitais!",
@@ -59,6 +57,8 @@ document.addEventListener("DOMContentLoaded", function () {
           hero_subtitle: "Welcome to Valhalla Digital",
           hero_title:
             "Specialized consultancy in Atlassian tools and processes.",
+          hero_description:
+            "We act as strategic partners in the development and implementation of tools such as:",
           hero_linkedin_followers: "LinkedIn followers",
           hero_button: "Our services",
           hero_button_header: "Talk to experts",
