@@ -1,6 +1,16 @@
 .s-service {
     padding: 90px 0;
 
+    .subtitle {
+        color: $green ;
+    }
+
+    h2{
+        &::before{
+            background-color: $green;
+        }
+    }
+
     .box-container {
         display: flex;
         align-items: center;

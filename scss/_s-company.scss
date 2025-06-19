@@ -5,8 +5,6 @@
     background-size: cover;
     background-position: center;
 
-    position: relative;
-
     .bg-video {
         position: absolute;
         top: 0;
@@ -26,7 +24,7 @@
         width: 35%;
 
         .subtitle {
-            color: $brand-green;
+            // color: $brand-green;
             text-align: left;
             display: contents;
             position: relative;

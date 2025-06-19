@@ -1,10 +1,20 @@
 .s-about {
     padding: 90px 0;
 
+    .subtitle {
+        color: $yellow;
+    }
+
     .d-flex {
         justify-content: space-between;
         align-items: center;
         margin-top: 8rem;
+    }
+
+    h2 {
+        &::before {
+            background-color: $yellow
+        }
     }
 
     .marquee {
