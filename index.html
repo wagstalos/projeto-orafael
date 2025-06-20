@@ -357,17 +357,17 @@
   <section class="s-about" id="about">
 
     <div class="container">
-      <span class="subtitle">Sobre </span>
-      <h2 class="title-section text-dark">Quem sou</h2>
+      <span class="subtitle" data-i18n="about_subtitle">Sobre </span>
+      <h2 class="title-section text-dark" data-i18n="about_title">Quem sou</h2>
 
       <div class="d-flex">
         <div class="s-about__text" data-aos="fade-left" data-aos-duration="1500">
-          <h3 class="s-about__text-title"> O Rafael</h3>
-          <p class="mt-5">
+          <h3 class="s-about__text-title">Rafael</h3>
+          <p class="mt-5" data-i18n="about_text1">
             Especialista em ferramentas Atlassian, com foco em Jira, Confluence e Jira Service Management. Produzo
             conteúdos em português sobre gestão ágil e automação de processos.</p>
 
-          <p class="hr-r">
+          <p class="hr-r" data-i18n="about_text2">
             Fundou a consultoria <b>ORafaelOficial</b> em 2021 e, desde então, vem construindo uma sólida carteira de
             clientes
             atendidos com excelência.
@@ -375,8 +375,8 @@
 
           <a href="https://orafaeloficial.atlassian.net/servicedesk/customer/portal/1" class="btn-portal"
             target="_blank" rel="noopener noreferrer">
+            <span data-i18n="about_button"> Acesse meu portal</span>
 
-            Acesse meu portal
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
               stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
               class="icon icon-tabler icons-tabler-outline icon-tabler-chevron-right">
@@ -395,7 +395,7 @@
 
         <div class="s-about__text2" data-aos="fade-up" data-aos-duration="1500">
 
-          <p class="mt-5">
+          <p class="mt-5" data-i18n="about_text3">
             Com mais de 10 anos de experiência em implantação, troubleshooting e treinamento, ajudo equipes a melhorarem
             sua eficiência operacional.
           </p>
@@ -403,13 +403,14 @@
           <ul class="align-center">
             <li>
               <img src="assets/icon-user.svg" alt="icon user">
-              <h3>+ 6 mil</h3>
-              <p>Usuário treinados</p>
+              <h3 data-i18n="about_text4">+ 6 mil</h3>
+              <p data-i18n="about_text5">Usuário treinados</p>
             </li>
             <li>
               <img src="assets/icon-country.svg" alt="icon country">
-              <h3>+ 4 países</h3>
-              <p>Atuando em clientes</p>
+              <h3 data-i18n="about_text6">+ 4 países</h3>
+              <p data-i18n="about_text7
+              ">Atuando em clientes</p>
             </li>
           </ul>
 
@@ -420,7 +421,7 @@
               <path
                 d="M12 2l.642 .005l.616 .017l.299 .013l.579 .034l.553 .046c4.687 .455 6.65 2.333 7.166 6.906l.03 .29l.046 .553l.041 .727l.006 .15l.017 .617l.005 .642l-.005 .642l-.017 .616l-.013 .299l-.034 .579l-.046 .553c-.455 4.687 -2.333 6.65 -6.906 7.166l-.29 .03l-.553 .046l-.727 .041l-.15 .006l-.617 .017l-.642 .005l-.642 -.005l-.616 -.017l-.299 -.013l-.579 -.034l-.553 -.046c-4.687 -.455 -6.65 -2.333 -7.166 -6.906l-.03 -.29l-.046 -.553l-.041 -.727l-.006 -.15l-.017 -.617l-.004 -.318v-.648l.004 -.318l.017 -.616l.013 -.299l.034 -.579l.046 -.553c.455 -4.687 2.333 -6.65 6.906 -7.166l.29 -.03l.553 -.046l.727 -.041l.15 -.006l.617 -.017c.21 -.003 .424 -.005 .642 -.005zm0 9h-1l-.117 .007a1 1 0 0 0 0 1.986l.117 .007v3l.007 .117a1 1 0 0 0 .876 .876l.117 .007h1l.117 -.007a1 1 0 0 0 .876 -.876l.007 -.117l-.007 -.117a1 1 0 0 0 -.764 -.857l-.112 -.02l-.117 -.006v-3l-.007 -.117a1 1 0 0 0 -.876 -.876l-.117 -.007zm.01 -3l-.127 .007a1 1 0 0 0 0 1.986l.117 .007l.127 -.007a1 1 0 0 0 0 -1.986l-.117 -.007z" />
             </svg>
-            <span>Convidado pela <b>Atlassian</b> para ser creator de conteúdo e instrutor na plataforma
+            <span data-i18n="about_text8">Convidado pela <b>Atlassian</b> para ser creator de conteúdo e instrutor na plataforma
               oficial da
               Atlassian.</span>
 
@@ -433,7 +434,7 @@
     </div>
 
     <div class="marquee">
-      <h3>Especialista Atlassian, com duas certificações internacionais: ACP-120 e ACP-620.</h2>
+      <h3 data-i18n="about_text9">Especialista Atlassian, com duas certificações internacionais: ACP-120 e ACP-620.</h2>
     </div>
 
   </section>
@@ -457,7 +458,8 @@
 
         <div class="s-company__cards">
           <div class="card">
-            <img src="assets/company1.svg" alt="icon user" data-aos="fade-up" data-aos-duration="1500" loading="lazy">
+            <img src="assets/company1.svg" class="js-tilt" alt="icon user" data-aos="fade-up" data-aos-duration="1500"
+              loading="lazy">
             <h3 class="color-light">Nossa missão</h3>
             <p class="color-light">Nossa missão é integrar a operação de TI, a gestão de produtos e o desenvolvimento de
               software, criando
@@ -465,7 +467,8 @@
           </div>
 
           <div class="card">
-            <img src="assets/company2.svg" alt="icon user" data-aos="fade-up" data-aos-duration="1500" loading="lazy">
+            <img src="assets/company2.svg" class="js-tilt" alt="icon user" data-aos="fade-up" data-aos-duration="1500"
+              loading="lazy">
             <h3 class="color-light">Processos</h3>
             <p class="color-light">Nós automatizamos processos, centralizamos a comunicação e otimizamos a gestão do
               conhecimento, promovendo uma evolução contínua nos processos internos.</p>
