@@ -6,6 +6,17 @@
         margin-bottom: 30px;
     }
 
+    .subtitle {
+        color: $red;
+    }
+
+    
+    h2{
+        &::before{
+            background-color: $red;
+        }
+    }
+
     .maps {
         display: flex;
         justify-content: space-between;
@@ -25,6 +36,10 @@
 
         .image {
             width: 45%;
+
+            img{
+                border-radius: 10px;
+            }
         }
     }
 

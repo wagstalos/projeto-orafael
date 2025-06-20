@@ -117,6 +117,7 @@
         width: 90%;
         margin: 0 auto;
         margin-top: 80px;
+        text-align: center;
         h3 {
             font-size: 4rem;
         }
@@ -146,6 +147,10 @@
                 background-color: #f7f7f7;
                 padding: 6px;
                 border-radius: 8px;
+
+                &last-child {
+                    width: 100%;
+                }
             }
         }
     }
