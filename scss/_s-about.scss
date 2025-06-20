@@ -13,7 +13,7 @@
 
     h2 {
         &::before {
-            background-color: $yellow
+            background-color: $yellow;
         }
     }
 
@@ -48,6 +48,12 @@
 
     &__image {
         width: 40%;
+        .selo {
+            position: absolute;
+            top: -38px;
+            right: 72px;
+            width: 100px;
+        }
     }
 
     &__text {
@@ -133,6 +139,11 @@
         &__image {
             width: 100%;
             margin-top: 4rem;
+            .selo {
+                top: -13px;
+                right: 22px;
+                width: 90px;
+            }
         }
 
         &__text {
