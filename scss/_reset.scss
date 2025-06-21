@@ -10,20 +10,18 @@
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
 }
-
-img {
-    max-width: 100%;
-    display: block;
-}
-
 html {
     font-size: 62.5%;
     overflow-x: hidden;
 }
 
-
 body {
     overflow-x: hidden;
+}
+
+img {
+    max-width: 100%;
+    display: block;
 }
 
 button {
