@@ -18,7 +18,7 @@
     }
 
     .marquee {
-        border-bottom: 1px solid #f4f4f4;
+        border-bottom: 1px solid $gray-100;
         margin-top: 39px;
         width: 100%;
         overflow: hidden;
@@ -29,7 +29,7 @@
         h3 {
             font-size: 27px;
             font-weight: 500;
-            color: #7b809e;
+            color: $gray-700;
             padding: 15px;
 
             display: inline-block;
@@ -87,14 +87,6 @@
             position: relative;
             font-size: 45px;
             color: #274084;
-            // &::before {
-            //     content: " ";
-            //     position: absolute;
-            //     width: 62px;
-            //     height: 2px;
-            //     bottom: -8px;
-            //     background-color: $brand-green;
-            // }
         }
 
         .hr-r {

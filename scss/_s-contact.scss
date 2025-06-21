@@ -10,9 +10,8 @@
         color: $red;
     }
 
-    
-    h2{
-        &::before{
+    h2 {
+        &::before {
             background-color: $red;
         }
     }
@@ -37,7 +36,7 @@
         .image {
             width: 45%;
 
-            img{
+            img {
                 border-radius: 10px;
             }
         }
@@ -71,7 +70,7 @@
         padding: $gutter * 3;
         position: relative;
 
-        transition: all 0.3s ease-in-out;
+        transition: all 0.5s ease-in-out;
 
         h3 {
             margin-top: 12px;
@@ -101,19 +100,10 @@
     .btn-contact {
         background-color: $brand-main;
         padding: 9px 10px;
-
-        display: inline-block;
-        align-items: center;
-        justify-content: center;
-
         border-radius: 50px;
-        margin-top: $gutter * 3;
-        float: inline-end;
-
         position: absolute;
         right: 14px;
         bottom: 14px;
-
         margin-top: 16px;
 
         svg {

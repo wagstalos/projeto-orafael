@@ -18,13 +18,13 @@
     color: $white;
 
     &:hover {
-        background-color: #2f57d9;
+        background-color: $brand-blue-dark-100;
     }
 }
 
 .btn-secondary {
     font-family: "Nunito", sans-serif;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: transparent;
     color: $white;
     transition: all 0.3s ease-in;
 
@@ -37,7 +37,7 @@
 }
 
 .btn-arrow-down {
-    background-color: white;
+    background-color: $white;
     padding: 8px 8px 5px 8px;
     border-radius: 35px;
     position: absolute;
@@ -68,7 +68,7 @@
 
 .btn-portal {
     font-size: 1.6rem;
-    color: #3866fb;
+    color: $brand-blue-dark;
     display: flex;
     align-items: center;
     margin-top: $gutter * 2;
@@ -79,6 +79,6 @@
     }
 
     &:hover {
-        color: #224cd5;
+        color: $brand-blue-dark-100;
     }
 }
