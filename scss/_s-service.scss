@@ -69,6 +69,9 @@
             li {
                 display: flex;
                 font-size: 1.6rem;
+                   font-family: "Nunito", sans-serif;
+
+                color: $gray-600;
 
                 margin-bottom: 2rem;
                 img {
@@ -166,6 +169,10 @@
 
         .box {
             width: 100%;
+
+            &:last-child{
+                height: 300px;
+            }
         }
     }
 }

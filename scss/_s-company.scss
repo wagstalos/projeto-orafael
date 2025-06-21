@@ -54,7 +54,6 @@
             background-color: #05052b;
             border-radius: 20px;
             padding: 17px;
-            border: 1px solid #454545;
             background: rgba(202, 202, 202, 0.17);
             backdrop-filter: blur(1.1rem);
 
@@ -75,7 +74,15 @@
         .d-flex {
             flex-direction: column;
         }
+
         &__text {
+            .title-section {
+                text-align: center;
+            }
+            .subtitle {
+
+                display: table;
+            }
             width: 100%;
             &-description {
                 font-size: 1.8rem;
