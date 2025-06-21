@@ -389,7 +389,7 @@
         <div class="s-about__image mx-auto relative" data-aos="fade-right" data-aos-duration="1500">
           <img src="assets/orafaelsobre.png" class="mx-auto relative" width="400" alt="empresa" lazy="loading"
             class="mx-auto">
-          <img src="assets/selo.png" class="selo float-animation" alt="selo" loading="lazy">
+          <img src="assets/selo.png" class="selo js-tilt float-animation" alt="selo" loading="lazy">
         </div>
 
 
@@ -595,13 +595,11 @@
 
   <section class="s-contact" id="contato">
     <span class="subtitle" data-i18n="contato">Contato</span>
-    <h2 class="title-section text-dark">Fale conosco</h2>
-    <p class="text-center">
+    <h2 class="title-section text-dark" data-i18n="contact_title">Fale conosco</h2>
+    <p class="text-center" data-i18n="contact_description">
       Estamos ansiosos para atendê-los.</p>
 
     <div class="container">
-
-
       <div class="d-flex">
         <div class="card item">
           <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-whatsapp" width="24"
@@ -657,7 +655,7 @@
             <path d="M12 12l-2 -3" />
             <path d="M12 7v5" />
           </svg>
-          <h3>Atendimento</h3>
+          <h3 data-i18n="contact_service">Atendimento</h3>
           <p>
             Segunda à sexta das 08:00h às 17:00h</p>
           <a href="" class="btn-contact">
@@ -678,9 +676,9 @@
         <div class="text">
           <img src="assets/icon-address.svg" alt="icone endereço">
 
-          <h3 class="title">Nosso escritório</h3>
+          <h3 class="title" data-i18n="contact_company">Nosso escritório</h3>
 
-          <p>Av. Pirajussara, 283, 4º andar <br>
+          <p>Av. Pirajussara, 283, 4º andar
             Butantã, São Paulo - SP</p>
 
           <div class="maps-google">
@@ -705,12 +703,10 @@
     <div class="container color-dark">
 
       <div class="d-flex">
-
         <a href="#hero" class="" id="logo">
-
           <p class="logotipo"><img src="assets/orafaeloficial_logo.webp" alt="O Rafael Oficial" width="160px"></p>
-
-          <p class="footer_description mt-4">Fundamentada em valores de integridade e excelência.</p>
+          <p class="footer_description mt-4" data-i18n="footer_description">Fundamentada em valores de integridade e
+            excelência.</p>
         </a>
 
         <div>
@@ -730,7 +726,7 @@
                 <img src="assets/icon-clock.svg" alt="icone relogio">
               </span>
 
-              <span> Segunda à sexta das 08:00h às 17:00h</span>
+              <span data-i18n="hour"> Segunda à sexta das 08:00h às 17:00h</span>
 
             </li>
             <li>
@@ -740,34 +736,10 @@
               <a href="mailto:rafael@orafaeloficial.com.br">rafael@orafaeloficial.com.br</a>
 
             </li>
-
-            <!-- <li> <span>
-                <img src="assets/icon-whats.svg" alt="icone whatsapp">
-              </span>
-
-              <a
-                href="https://api.whatsapp.com/send?l=pt_BR&phone=5517991159476&text=Ol%C3%A1%2C%20vim%20atrav%C3%A9s%20do%20site.">Enviar
-                WhatsApp</a>
-
-            </li>
-
-            <li> <span>
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="27"
-                  height="27" viewBox="0 0 24 24" stroke-width="2" stroke="#13A9E0" fill="none" stroke-linecap="round"
-                  stroke-linejoin="round">
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                  <path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" />
-                  <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
-                  <path d="M16.5 7.5l0 .01" />
-                </svg>
-              </span>
-
-              <a href="">orafaeloficialbr</a>
-
-            </li> -->
           </ul>
 
-          <h4 class="mt-4">Redes Sociais</h4>
+          <h4 class="mt-4" data-i18n="footer_media">Redes Sociais</h4>
+
           <ul class="sociais">
 
             <li>
@@ -794,8 +766,6 @@
                 <img src="assets/icon-youtube.svg" alt="icone whatsapp" width="24">
               </a>
             </li>
-
-
           </ul>
 
         </div>
@@ -813,15 +783,16 @@
           <path d="M16 9l-4 -4" />
           <path d="M8 9l4 -4" />
         </svg></a>
-      <p class="d-center color-light text-center">Voltar ao topo</p>
+      <p class="d-center color-light text-center" data-i18n="back_to_top">Voltar ao topo</p>
 
 
       <div class="container wps-games">
         <div><b> © O Rafael Oficial 2025.</b> All rights reserved. </div>
 
         <div class="d-flex align-center">
-          Desenvolvido por: <a href="https://wpsgames.com.br"><img src="assets/wps.svg" alt="wps games"
-              width="30px"></a>
+          <span data-i18n="Developed by">Desenvolvido por </span>
+          <a href="https://wpsgames.com.br">
+            <img src="assets/wps.svg" alt="wps games" class="ml-2" width="30px"></a>
         </div>
 
       </div>

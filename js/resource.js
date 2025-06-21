@@ -10,12 +10,10 @@ document.addEventListener("DOMContentLoaded", function () {
           contato: "Contato",
           address: "Endereço",
           empresa: "Empresa",
-          hour: "Segunda à sexta das 08:00h às 18:00h",
+          hour: "Segunda à sexta das 08:00h às 17:00h",
           close: "Fechar",
           email: "*E-mail",
           carreira: "Carreira",
-          footer_description:
-            "Com a força dos vikings transformando cliques em conquistas.",
           back_to_top: "Voltar ao topo",
 
           hero_subtitle: "Bem-vindo à Valhalla Digital",
@@ -45,15 +43,17 @@ document.addEventListener("DOMContentLoaded", function () {
             "Especialista Atlassian, com duas certificações internacionais: ACP-120 e ACP-620.",
           about_button: "Acesse meu portal",
 
-          contact_title:
-            "Embarque nesta Jornada Épica com os Vikings Digitais!",
-          contact_description:
-            "Pronto para desbravar os mares digitais e conquistar territórios online? Estamos aqui para forjar estratégias digitais robustas e projetos incríveis. Entre em contato com os Vikings Digitais e prepare-se para uma aventura única na criação online!",
-          contact_name: "*Nome:",
-          contact_tel: "*Celular:",
-          contact_company: "Empresa:",
+          contact_title: "Fale conosco",
+          contact_description: "Estamos ansiosos para atendê-lo.",
+          contact_service: "Atendimento",
+          contact_company: "Nosso escritório:",
           contact_msg: "Mensagem:",
           contact_send: "Enviar",
+
+          footer_wps: "Desenvolvido por",
+          footer_media: "Redes Sociais",
+          footer_description:
+            "Fundamentada em valores de integridade e excelência.",
         },
       },
       en: {
@@ -68,8 +68,7 @@ document.addEventListener("DOMContentLoaded", function () {
           close: "Close",
           email: "*Email",
           carreira: "Career",
-          footer_description:
-            "With the strength of the Vikings transforming clicks into achievements.",
+
           back_to_top: "Back to the top",
           hero_subtitle: "Welcome to Valhalla Digital",
           hero_title:
@@ -98,14 +97,16 @@ document.addEventListener("DOMContentLoaded", function () {
             "Atlassian specialist with two international certifications: ACP-120 and ACP-620.",
           about_button: "Visit my portal",
 
-          contact_title: "Embark on this Epic Journey with Digital Vikings!",
-          contact_description:
-            "Ready to explore the digital seas and conquer territories online? We are here to forge robust digital strategies and incredible projects. Get in touch with Digital Vikings and get ready for a unique adventure in online creation!",
-          contact_name: "*Name:",
-          contact_tel: "*Phone:",
-          contact_company: "Company:",
+          contact_title: "Contact us",
+          contact_description: "We look forward to serving you.",
+          contact_service: "Service",
+          contact_company: "Our office",
           contact_msg: "Message:",
           contact_send: "To send",
+
+          footer_wps: "Developed by:",
+          footer_media: "Social media",
+          footer_description: "Founded on values of integrity and excellence.",
         },
       },
     },
