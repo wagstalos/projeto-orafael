@@ -130,7 +130,7 @@ footer {
         }
     }
 
-    @include responsive(600px) {
+    @include responsive($mobile) {
         margin: 10px;
         .d-flex {
             flex-direction: column;
@@ -148,7 +148,6 @@ footer {
     @include responsive(500px) {
         .credits {
             z-index: 11;
-            // background-color: $green;
         }
     }
 }
