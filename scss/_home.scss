@@ -1,7 +1,8 @@
 .s-hero {
     width: 100%;
     padding-top: 8rem;
-    height: 95vh;
+    padding-bottom: 4rem;
+    // height: 95vh;
     position: relative;
     @include flex(row, center, center);
 
@@ -69,7 +70,7 @@
             margin-top: 3.4rem;
             margin-bottom: 4rem;
             font-weight: 400;
-           
+
             color: $white;
             opacity: 0.9;
 
@@ -84,7 +85,7 @@
                 white-space: nowrap;
                 font-size: 1.6rem;
                 border: 1px solid #ffffff85;
-                 line-height: 180%;
+                line-height: 180%;
             }
         }
     }
@@ -222,7 +223,7 @@
                 max-width: 100%;
                 margin: 3rem auto;
 
-                p{
+                p {
                     font-size: 1.6rem;
                 }
             }
