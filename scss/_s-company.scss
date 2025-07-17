@@ -85,6 +85,12 @@
             width: 100%;
             &-description {
                 font-size: 1.8rem;
+                text-align: center;
+            }
+
+            .btn-portal {
+                justify-content: center;
+                margin-bottom: 40px;
             }
         }
 

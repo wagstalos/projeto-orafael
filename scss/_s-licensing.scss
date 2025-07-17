@@ -1,0 +1,192 @@
+.s-licensing {
+    background: #fafafa;
+    padding-bottom: 13.4rem;
+
+    .subtitle {
+        color: $yellow;
+    }
+    h2 {
+        &::before {
+            background-color: $yellow;
+        }
+    }
+
+    .btn-portal {
+        color: #001b66;
+        background-color: white;
+        padding: 13px 30px;
+        border-radius: 25px;
+    }
+
+    .container {
+        padding-top: 10.9rem;
+        .top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            ul {
+                // width: 59.2rem;
+                display: flex;
+                justify-content: space-between;
+                opacity: 0.6;
+                border: 1px solid #c4c4c4;
+                box-sizing: border-box;
+                border-radius: 120px;
+
+                font-family: "Montserrat", sans-serif;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 20px;
+
+                text-align: center;
+                letter-spacing: 0.02em;
+                text-transform: uppercase;
+
+                color: $brand-gray;
+                li {
+                    margin: 5px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 12rem;
+                    padding: 1.8rem 0;
+                    width: 269px;
+                    display: inline-block;
+                    &:first-child {
+                        background-color: $brand-black;
+                        color: white;
+                        border-radius: 12rem;
+                        // padding: 1.8rem 8.5rem;
+                    }
+                }
+            }
+        }
+        .box-cel {
+            // height: 42.4rem;
+            background-color: #2a2ab6;
+            // background: radial-gradient(circle at 1% 25%, #021b62 0, #00113f 25%);
+            margin-top: 8.7rem;
+            border-radius: 1.5rem;
+            display: flex;
+            justify-content: space-between;
+
+            .text-box-cel {
+                margin-top: 6.7rem;
+                margin-left: 10.3rem;
+                h3 {
+                    width: 100%;
+                    max-width: 563px;
+                    color: $white;
+                    margin-bottom: 1.6rem;
+                    font-size: 3.5rem;
+                }
+                p {
+                    max-width: 341px;
+                    line-height: 150%;
+                    font-size: 16px;
+                    line-height: 150%;
+                    color: $white;
+                    opacity: 0.7;
+                }
+                .nfc {
+                    margin-top: 5rem;
+                    display: flex;
+                    align-items: center;
+                    img {
+                        margin-right: 1.6rem;
+                    }
+                }
+
+                .c6-bussines {
+                    margin-bottom: 53px;
+                }
+            }
+            .img-box-cel {
+                margin-top: -14px;
+                // margin-right: -105px;
+            }
+            .card-carbon {
+                position: absolute;
+                left: 45%;
+                margin-top: -6%;
+            }
+            .img-c6-bussines {
+                margin-top: 353px;
+                margin-right: 35px;
+                margin-bottom: 13px;
+            }
+        }
+    }
+
+    @include responsive(800px) {
+        .container {
+            .top {
+                flex-direction: column;
+                text-align: center;
+                ul {
+                    margin-top: 4rem;
+                    width: 100%;
+                }
+            }
+            .box-cel {
+                flex-direction: column;
+                text-align: center;
+                .img-box-cel {
+                    margin-top: 160px;
+                }
+                .card-carbon {
+                    position: absolute;
+                    left: 0;
+                    margin-top: 74%;
+                }
+                .img-c6-bussines {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    @include responsive(600px) {
+        .container {
+            .top {
+                flex-direction: column;
+                text-align: center;
+                ul {
+                    margin-top: 4rem;
+                    width: 100%;
+                    li {
+                        font-size: 1.4rem;
+                    }
+                }
+            }
+            .box-cel {
+                flex-direction: column;
+                text-align: center;
+                .text-box-cel {
+                    margin: 54px 16px 0 16px;
+                    text-align: center;
+                    h3 {
+                        max-width: 100%;
+                        font-size: 2.5rem;
+                    }
+                    .nfc {
+                        justify-content: center;
+                    }
+                }
+                .img-box-cel {
+                    margin: 0 auto;
+                    margin-top: 50px;
+                }
+                .card-carbon {
+                    position: absolute;
+                    left: 0;
+                    margin-top: 90%;
+                }
+                .img-c6-bussines {
+                    display: none;
+                }
+            }
+        }
+    }
+}
