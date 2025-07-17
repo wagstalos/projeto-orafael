@@ -44,12 +44,25 @@ document.addEventListener("DOMContentLoaded", function () {
             "Especialista Atlassian, com duas certificações internacionais: ACP-120 e ACP-620.",
           about_button: "Acesse meu portal",
 
+          company_subtitle: "Nossa empresa",
+          company_title: "Quem Somos",
+          company_description:
+            "Nosso foco é ajudar empresas a adotarem metodologias ágeis, transformando a forma como trabalham e colaboram.",
+          company_btn: "Solicite uma consultoria gratuita",
+          company_mission: "Nossa missão",
+          company_mission_text:
+            "Nossa missão é integrar a operação de TI, a gestão de produtos e o desenvolvimento de software, criando fluxos de trabalho ágeis e eficientes, que conectam equipes de forma colaborativa.",
+          company_processes: "Processos",
+          company_processes_text:
+            "Nós automatizamos processos, centralizamos a comunicação e otimizamos a gestão do conhecimento, promovendo uma evolução contínua nos processos internos.",
+
           contact_title: "Fale conosco",
           contact_description: "Estamos ansiosos para atendê-lo.",
           contact_service: "Atendimento",
           contact_company: "Nosso escritório:",
           contact_msg: "Mensagem:",
           contact_send: "Enviar",
+          contact_hour: "Segunda à sexta das 08:00h às 17:00h",
 
           footer_wps: "Desenvolvido por",
           footer_media: "Redes Sociais",
@@ -99,12 +112,25 @@ document.addEventListener("DOMContentLoaded", function () {
             "Atlassian specialist with two international certifications: ACP-120 and ACP-620.",
           about_button: "Visit my portal",
 
+          company_subtitle: "Our Company",
+          company_title: "About Us",
+          company_description:
+            "Our focus is to help companies adopt agile methodologies, transforming the way they work and collaborate.",
+          company_btn: "Request a free consultation",
+          company_mission: "Our Mission",
+          company_mission_text:
+            "Our mission is to integrate IT operations, product management, and software development, creating agile and efficient workflows that connect teams collaboratively.",
+          company_processes: "Processes",
+          company_processes_text:
+            "We automate processes, centralize communication, and optimize knowledge management, promoting continuous improvement in internal operations.",
+
           contact_title: "Contact us",
           contact_description: "We look forward to serving you.",
           contact_service: "Service",
           contact_company: "Our office",
           contact_msg: "Message:",
           contact_send: "To send",
+          contact_hour: "Monday to Friday from 8:00 am to 5:00 pm",
 
           footer_wps: "Developed by:",
           footer_media: "Social media",
