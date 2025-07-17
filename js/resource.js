@@ -10,6 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
           contato: "Contato",
           address: "Endereço",
           empresa: "Empresa",
+          licensing: "licenciamento",
           hour: "Segunda à sexta das 08:00h às 17:00h",
           close: "Fechar",
           email: "*E-mail",
@@ -18,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
           hero_subtitle: "Bem-vindo à Valhalla Digital",
           hero_title:
-            "Consultoria especializada em ferramentas Atlassian e processos.",
+            "Consultoria especializada em ferramentas Atlassian e processos ágeis",
           hero_linkedin_followers: "seguidores no LinkedIn ",
           hero_description:
             "Atuamos como parceiros estratégicos no desenvolvimento e implementação de ferramentas como:",
@@ -28,11 +29,11 @@ document.addEventListener("DOMContentLoaded", function () {
           about_subtitle: "Sobre",
           about_title: "Quem Sou",
           about_text1:
-            "Especialista em ferramentas Atlassian, com foco em Jira, Confluence e Jira Service Management. Produzo conteúdos em português sobre gestão ágil e automação de processos.",
+            "Especialista em ferramentas Atlassian, com ênfase em Jira, Confluence e Jira Service Management. Desenvolve conteúdos digitais voltados à gestão ágil e à automação de processos.",
           about_text2:
             "Fundou a consultoria ORafaelOficial em 2021 e, desde então, vem construindo uma sólida carteira de clientes atendidos com excelência.",
           about_text3:
-            "Com mais de 10 anos de experiência em implantação, troubleshooting e treinamento, ajudo equipes a melhorarem sua eficiência operacional.",
+            "Com mais de 10 anos de experiência em implantação, troubleshooting e capacitação, atuo no apoio a equipes na melhoria da eficiência operacional.",
           about_text4: "+ 6 mil",
           about_text5: "Usuário treinados",
           about_text6: "+ 4 países",
@@ -59,11 +60,12 @@ document.addEventListener("DOMContentLoaded", function () {
       en: {
         translation: {
           quem_somos: "About Us",
-          atuacao: "Activities",
+          atuacao: "Services",
           servicos: "Projects",
           contato: "Contact",
           address: "Address",
           empresa: "Company",
+          licensing: "Licensing",
           hour: "Monday to Friday from 8:00 am to 6:00 pm",
           close: "Close",
           email: "*Email",
@@ -74,7 +76,7 @@ document.addEventListener("DOMContentLoaded", function () {
           hero_title:
             "Specialized consultancy in Atlassian tools and processes.",
           hero_description:
-            "We act as strategic partners in the development and implementation of tools such as:",
+            "We act as strategic partners in the development and implementation of solutions, such as:",
           hero_linkedin_followers: "LinkedIn followers",
           hero_button: "Our services",
           hero_button_header: "Talk to experts",
@@ -82,11 +84,11 @@ document.addEventListener("DOMContentLoaded", function () {
           about_subtitle: "About",
           about_title: "Who I Am",
           about_text1:
-            "Specialist in Atlassian tools, with a focus on Jira, Confluence, and Jira Service Management. I create content in Portuguese about agile management and process automation.",
+            "Specialist in Atlassian tools, with a focus on Jira, Confluence, and Jira Service Management.Develops digital content focused on agile management and process automation..",
           about_text2:
             "Founded the ORafaelOficial consultancy in 2021 and has since built a solid portfolio of clients served with excellence.",
           about_text3:
-            "With over 10 years of experience in implementation, troubleshooting, and training, I help teams improve their operational efficiency.",
+            "With over 10 years of experience in implementation, troubleshooting, and training, I support teams in improving operational efficiency.",
           about_text4: "+ 6K",
           about_text5: "Users trained",
           about_text6: "+ 4 countries",

@@ -50,12 +50,12 @@
         .card {
             position: relative;
             max-width: 300px;
-            color: $white;
+            color: #fff;
             background-color: #05052b;
             border-radius: 20px;
             padding: 17px;
-            background: rgba(202, 202, 202, 0.17);
             backdrop-filter: blur(1.1rem);
+            border: #1e6cea42 1px solid;
 
             h3 {
                 margin-top: 50%;
@@ -80,7 +80,6 @@
                 text-align: center;
             }
             .subtitle {
-
                 display: table;
             }
             width: 100%;
