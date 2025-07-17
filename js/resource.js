@@ -56,6 +56,33 @@ document.addEventListener("DOMContentLoaded", function () {
           company_processes_text:
             "Nós automatizamos processos, centralizamos a comunicação e otimizamos a gestão do conhecimento, promovendo uma evolução contínua nos processos internos.",
 
+          service_subtitle: "Nosso serviços",
+          service_title: "O que oferecemos",
+          service_boxtitle1: "Consultoria Atlassain",
+          service_consult: "Consultar",
+          service_box1_text1: "Gerenciamento de serviço Atlassian",
+          service_box1_text2: "Soluções técnicas",
+          service_box1_text3: "Treinamento",
+          service_box1_text4: "Suporte",
+          service_boxtitle2: "Criador de conteúdo",
+          service_box2_text1: "Vídeo de avaliação completa de produtos",
+          service_box2_text2: "Vídeo de revisão especializada de ferramentass",
+          service_box2_text3: "Publicações estratégicas para LinkedIn",
+          service_btn: "Conversar",
+
+          service_n1: "Seguidores no Linkedin",
+          service_n2: "Visualizações por post",
+          service_n3: "Inscritros no canal",
+          service_n4: "Vídeos no canal",
+          service_n5: "Visualizações no canal",
+
+          licensing_subtitle: "Para sua empresa",
+          licensing_title: "Licenciamento",
+          licensing_title_main:
+            "Sua empresa pode estar pagando mais do que precisa pelas licenças Atlassian",
+          licensing_description: "Quer saber como evitar isso?",
+          licensing_btn: "Reavalie seus custos aqui",
+
           contact_title: "Fale conosco",
           contact_description: "Estamos ansiosos para atendê-lo.",
           contact_service: "Atendimento",
@@ -123,6 +150,36 @@ document.addEventListener("DOMContentLoaded", function () {
           company_processes: "Processes",
           company_processes_text:
             "We automate processes, centralize communication, and optimize knowledge management, promoting continuous improvement in internal operations.",
+
+          service_subtitle: "Our Services",
+          service_title: "What we offer",
+
+          service_boxtitle1: "Atlassian consulting",
+          service_consult: "Consult",
+
+          service_box1_text1: "Atlassian service management",
+          service_box1_text2: "Technical solutions",
+          service_box1_text3: "Training",
+          service_box1_text4: "Support",
+
+          service_boxtitle2: "Content creation",
+          service_box2_text1: "Full product review videos",
+          service_box2_text2: "Expert tool review videos",
+          service_box2_text3: "Strategic posts for LinkedIn",
+          service_btn: "To talk",
+
+          service_n1: "LinkedIn followers",
+          service_n2: "Views per post",
+          service_n3: "Channel subscribers",
+          service_n4: "Videos on the channel",
+          service_n5: "Channel views",
+
+          licensing_subtitle: "For Your Company",
+          licensing_title: "Licensing",
+          licensing_title_main:
+            "Your company might be paying more than it needs to for Atlassian licenses",
+          licensing_description: "Want to know how to avoid that?",
+          licensing_btn: "Reevaluate your costs here",
 
           contact_title: "Contact us",
           contact_description: "We look forward to serving you.",

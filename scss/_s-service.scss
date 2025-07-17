@@ -68,12 +68,14 @@
             margin-top: 5rem;
             li {
                 display: flex;
-                font-size: 1.6rem;
-                font-family: "Nunito", sans-serif;
-
-                color: $gray-600;
 
                 margin-bottom: 2rem;
+                span {
+                    font-size: 1.6rem;
+                    font-family: "Nunito", sans-serif;
+
+                    color: $gray-600;
+                }
                 img {
                     margin-right: $gutter * 2;
                 }
