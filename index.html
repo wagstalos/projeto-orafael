@@ -98,7 +98,6 @@
 
     <!-- menu mobile -->
     <div>
-      <!-- mobile menu -->
       <div class="dots">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
           stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -128,14 +127,16 @@
           </li>
           <li>
             <a href="#servicos">
-              <span>Atuação</span>
+              <span data-i18n="atuacao">Atuação</span>
             </a>
           </li>
 
           <li>
-
             <a href="#company" data-i18n="empresa">Empresa </a>
+          </li>
 
+          <li>
+            <a href="#company" data-i18n="licensing">Licenciamento </a>
           </li>
 
 
@@ -625,57 +626,50 @@
 
   </section>
 
-  <section id="licenciamento">
-    <div class="s-licensing">
-      <div class="container">
-        <div class="">
-          <div>
-            <span class="subtitle">Para sua empresa</span>
-            <h2 class="title-section text-dark">Licenciamento</h2>
-            <!-- <h3>com produtos exclusivos</h3> -->
-          </div>
 
-          <!-- <ul>
-            <li>Para sua empresa</li>
-            <li>PARA SUA EMPRESA</li>
-          </ul> -->
+  <section class="s-licensing" id="licenciamento">
+    <div class="container">
+      <div class="">
+        <span class="subtitle">Para sua empresa</span>
+        <h2 class="title-section text-dark">Licenciamento</h2>
+      </div>
+
+      <div class="box-cel">
+        <div class="text-box-cel" data-aos="fade-up" data-aos-duration="1000">
+          <h3>Sua empresa pode estar pagando mais do que precisa pelas licenças Atlassian</h3>
+          <p>
+            Quer saber como evitar isso?
+          </p>
+          <div class="nfc">
+            <!-- <img src="img/icon-nfc.svg" alt="" /> -->
+
+            <a href="https://orafaeloficial.atlassian.net/servicedesk/customer/portal/1" target="_blank"
+              class="btn-portal">Reavalie seus custos aqui
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="icon icon-tabler icons-tabler-outline icon-tabler-external-link">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M12 6h-6a2 2 0 0 0 -2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-6" />
+                <path d="M11 13l9 -9" />
+                <path d="M15 4h5v5" />
+              </svg>
+            </a>
+          </div>
         </div>
 
-        <div class="box-cel">
-          <div class="text-box-cel">
-            <h3>Sua empresa pode estar pagando mais do que precisa pelas licenças Atlassian</h3>
-            <p>
-              Quer saber como evitar isso?
-            </p>
-            <div class="nfc">
-              <!-- <img src="img/icon-nfc.svg" alt="" /> -->
-
-              <a href="https://orafaeloficial.atlassian.net/servicedesk/customer/portal/1" target="_blank"
-                class="btn-portal">Reavalie seus custos aqui
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                  class="icon icon-tabler icons-tabler-outline icon-tabler-external-link">
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                  <path d="M12 6h-6a2 2 0 0 0 -2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-6" />
-                  <path d="M11 13l9 -9" />
-                  <path d="M15 4h5v5" />
-                </svg>
-              </a>
-            </div>
-          </div>
-
-          <!-- <img src="img/card.png" class="card-carbon js-tilt" alt="card carbon" data-aos="fade-up"
+        <!-- <img src="img/card.png" class="card-carbon js-tilt" alt="card carbon" data-aos="fade-up"
             data-aos-duration="1800" data-tilt /> -->
 
-          <img src="assets/mulher.png" class="img-box-cel" alt="celular c6" width="246" />
+        <img src="assets/mulher.png" class="img-box-cel" alt="celular c6" width="246" data-aos="fade-right"
+          data-aos-duration="1000" />
 
-          <div class="img-c6-bussines">
-            <img src="assets/orafaeloficial_logo.png" alt=" logo bussines" width="100px" />
-          </div>
+        <div class="img-c6-bussines">
+          <img src="assets/orafaeloficial_logo.png" alt=" logo bussines" width="100px" />
         </div>
       </div>
     </div>
   </section>
+
 
 
   <section class="s-contact" id="contato">
@@ -833,13 +827,13 @@
                   src="assets/icon-whats.svg" alt="icone whatsapp" width="24"></a>
 
             </li>
-
+            <!-- 
             <li>
               <a href="">
                 <img src="assets/icon-instagram.svg" alt="icone whatsapp" width="24">
               </a>
 
-            </li>
+            </li> -->
             <li>
               <a href="">
                 <img src="assets/icon-linkedin.svg" alt="icone whatsapp" width="24">

@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
       "pt-BR": {
         translation: {
           quem_somos: "Quem somos",
-          atuacao: "Atuação",
+          atuacao: "Serviços",
           servicos: "Projetos",
           contato: "Contato",
           address: "Endereço",
