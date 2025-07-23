@@ -1,9 +1,11 @@
 .s-company {
     padding: 140px 0 90px;
-    background-image: url(../assets/bg-company.png);
+    // background-image: url(../assets/bg-company.png);
+    background-color: rgb(7, 0, 54);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    position: relative;
 
     .bg-video {
         position: absolute;
@@ -13,6 +15,7 @@
         height: 100%;
         object-fit: cover;
         z-index: 0;
+        opacity: 0.8;
     }
 
     .d-flex {
@@ -22,6 +25,7 @@
 
     &__text {
         width: 35%;
+        z-index: 6;
 
         .subtitle {
             // color: $brand-green;
@@ -51,11 +55,13 @@
             position: relative;
             max-width: 300px;
             color: #fff;
-            background-color: #05052b;
             border-radius: 20px;
             padding: 17px;
             backdrop-filter: blur(1.1rem);
-            border: #1e6cea42 1px solid;
+            border: rgba(30, 108, 234, 0.2588235294) 1px solid;
+            padding: 16px;
+            border-radius: 16px;
+            border: 1px solid rgba(255, 255, 255, 0.168627451);
 
             h3 {
                 margin-top: 50%;

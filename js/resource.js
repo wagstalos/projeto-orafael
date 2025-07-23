@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
           contato: "Contato",
           address: "Endereço",
           empresa: "Empresa",
-          licensing: "licenciamento",
+          licensing: "Licenciamento",
           hour: "Segunda à sexta das 08:00h às 17:00h",
           close: "Fechar",
           email: "*E-mail",
@@ -77,7 +77,7 @@ document.addEventListener("DOMContentLoaded", function () {
           service_n5: "Visualizações no canal",
 
           licensing_subtitle: "Para sua empresa",
-          licensing_title: "Licenciamento",
+          licensing_title: "Licensing",
           licensing_title_main:
             "Sua empresa pode estar pagando mais do que precisa pelas licenças Atlassian",
           licensing_description: "Quer saber como evitar isso?",
