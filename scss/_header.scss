@@ -23,6 +23,8 @@ header {
 
     .container {
         @include flex(row, center, space-between);
+        width: 100%;
+        max-width: 145.6rem;
     }
 
     .btn-secondary {
