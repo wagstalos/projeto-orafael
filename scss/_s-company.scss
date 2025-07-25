@@ -97,6 +97,18 @@
             .btn-portal {
                 justify-content: center;
                 margin-bottom: 40px;
+                
+                max-width: 75%;
+                color: #fff;
+                border-radius: 20px;
+                padding: 17px;
+                backdrop-filter: blur(1.1rem);
+                border: rgba(30, 108, 234, 0.2588235294) 1px solid;
+                padding: 16px;
+                border-radius: 16px;
+                border: 1px solid rgba(255, 255, 255, 0.168627451);
+                margin: 0 auto;
+                margin-top: 20px;
             }
         }
 
