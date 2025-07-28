@@ -64,8 +64,6 @@ header {
                 }
 
                 &:hover {
-                    // border-bottom: 2px solid $brand-main;
-
                     a {
                         color: $white;
                     }
@@ -112,7 +110,7 @@ header {
 .menu-mobile {
     background: #011859;
     width: 90%;
-    height: 100vh;
+    height: 100svh;
     position: fixed;
     top: 0;
     left: -90%; // Oculto fora da tela à esquerda
@@ -123,7 +121,7 @@ header {
 
     .cta-btn {
         width: 80%;
-        color: #fff;
+        color: $white;
         border-radius: 20px;
         padding: 17px;
         backdrop-filter: blur(1.1rem);
@@ -157,8 +155,8 @@ header {
     &__links {
         display: flex;
         flex-direction: column;
-        justify-content: center; 
-        height: 100%; 
+        justify-content: center;
+        height: 100%;
         padding: 0;
         margin: 0;
         list-style: none;
@@ -177,7 +175,6 @@ header {
     }
 
     ul {
-        // margin-top: 6rem;
         li {
             text-align: left;
             font-size: 1.6rem;
@@ -185,8 +182,9 @@ header {
             font-weight: 600;
             display: flex;
             align-items: center;
+            margin-bottom: 30px;
 
-            img{
+            img {
                 margin-left: 8px;
                 margin-right: 16px;
             }
