@@ -1,24 +1,26 @@
 function menuMobile() {
-  var dotsButton = document.querySelector(".dots");
-  var menuMobile = document.querySelector(".menu-mobile");
-  var closeIcon = document.querySelector(".icon-tabler-x");
-  var links = document.querySelectorAll(".menu-mobile__links a");
+  const dotsButton = document.querySelector(".dots");
+  const menuMobile = document.querySelector(".menu-mobile");
+  const closeIcon = document.querySelector(".icon-tabler-x");
+  const overlay = document.querySelector(".menu-overlay");
+  const links = document.querySelectorAll(".menu-mobile__links a");
 
-  dotsButton.addEventListener("click", function () {
-    menuMobile.style.display = "block";
-    closeIcon.style.display = "block";
-  });
+  function openMenu() {
+    menuMobile.classList.add("active");
+    overlay.classList.add("active");
+  }
 
-  closeIcon.addEventListener("click", function () {
-    menuMobile.style.display = "none";
-    closeIcon.style.display = "none";
-  });
+  function closeMenu() {
+    menuMobile.classList.remove("active");
+    overlay.classList.remove("active");
+  }
+
+  dotsButton.addEventListener("click", openMenu);
+  closeIcon.addEventListener("click", closeMenu);
+  overlay.addEventListener("click", closeMenu);
 
   links.forEach(function (link) {
-    link.addEventListener("click", function () {
-      menuMobile.style.display = "none";
-      closeIcon.style.display = "none";
-    });
+    link.addEventListener("click", closeMenu);
   });
 }
 

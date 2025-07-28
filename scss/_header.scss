@@ -110,62 +110,117 @@ header {
 }
 
 .menu-mobile {
-    background: $white;
-    width: 100%;
+    background: #011859;
+    width: 90%;
     height: 100vh;
     position: fixed;
+    top: 0;
+    left: -90%; // Oculto fora da tela à esquerda
+    z-index: 20;
+    display: block;
+    transition: left 0.3s ease-in-out;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
 
-    right: 0;
-    bottom: 0;
-    z-index: 12;
-    display: none;
+    .cta-btn {
+        width: 80%;
+        color: #fff;
+        border-radius: 20px;
+        padding: 17px;
+        backdrop-filter: blur(1.1rem);
+        border: rgba(30, 108, 234, 0.2588235294) 1px solid;
+        padding: 16px;
+        border-radius: 16px;
+        border: 1px solid rgba(255, 255, 255, 0.168627451);
 
-    &::before {
-        content: "";
-        width: 100%;
-        height: 50vh;
-        background-color: #000000b5;
         position: absolute;
-        top: -100%;
+        bottom: 20px;
+
+        font-size: 1.6rem;
+        display: flex;
+        justify-content: space-between;
+        left: 10%;
+        font-weight: 500;
+
+        transition: 0.3s all ease-in;
+
+        &:hover {
+            background-color: #ffffff37;
+        }
     }
 
-    &__icons {
+    .logo-menu {
         position: absolute;
-        position: absolute;
-        bottom: 0;
-        left: 50%;
-        transform: translateX(-50%);
-        svg {
-            width: 24px;
-            margin: 8px;
-        }
+        left: 15px;
+        top: 12px;
+    }
+
+    &__links {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; 
+        height: 100%; 
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        text-transform: uppercase;
+    }
+
+    &.active {
+        left: 0;
     }
 
     .icon-tabler-x {
         position: absolute;
-        top: 56px;
-        right: 42px;
+        top: 24px;
+        right: 24px;
+        cursor: pointer;
     }
 
     ul {
-        width: 100%;
-        position: absolute;
-        top: 50%;
-        transform: translateY(-55%);
-
+        // margin-top: 6rem;
         li {
-            text-align: center;
-            font-size: 2rem;
-            margin: 24px 0;
-            font-weight: 700;
+            text-align: left;
+            font-size: 1.6rem;
+            margin: 2rem;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+
+            img{
+                margin-left: 8px;
+                margin-right: 16px;
+            }
 
             a {
-                color: $black;
+                color: $white;
+                text-decoration: none;
             }
         }
     }
+
+    &__icons {
+        position: absolute;
+        bottom: 1rem;
+        left: 50%;
+        transform: translateX(-50%);
+    }
 }
 
+.menu-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.9); // fundo preto com 90% de opacidade
+    z-index: 10;
+    display: none;
+    transition: opacity 0.3s ease-in-out;
+
+    &.active {
+        display: block;
+    }
+}
 .show {
     display: block;
 }
