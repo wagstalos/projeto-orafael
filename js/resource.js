@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", function () {
           company_subtitle: "Nossa empresa",
           company_title: "Quem Somos",
           company_description:
-            "Nosso foco é ajudar empresas a adotarem metodologias ágeis, transformando a forma como trabalham e colaboram.",
+            "Nosso foco é apoiar empresas na implementação de metodologias ágeis, promovendo a transformação de seus processos de trabalho e colaboração.",
           company_btn: "Solicite uma consultoria gratuita",
           company_mission: "Nossa missão",
           company_mission_text:
@@ -142,7 +142,7 @@ document.addEventListener("DOMContentLoaded", function () {
           company_subtitle: "Our Company",
           company_title: "About Us",
           company_description:
-            "Our focus is to help companies adopt agile methodologies, transforming the way they work and collaborate.",
+            "Our focus is to support companies in implementing agile methodologies, promoting the transformation of their work and collaboration processes.",
           company_btn: "Request a free consultation",
           company_mission: "Our Mission",
           company_mission_text:
