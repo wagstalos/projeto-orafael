@@ -1,0 +1,16 @@
+{
+  "name": "O Rafael Oficial",
+  "short_name": "O Rafael Oficial",
+  "description": "Consultoria especializada em ferramentas como JIRA, ITIL e Service Management. Atuamos como parceiros estratégicos na transformação digital.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#317EFB",
+  "icons": [
+    {
+      "src": "assets/icons/icon_x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}

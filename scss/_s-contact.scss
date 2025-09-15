@@ -20,6 +20,11 @@
         display: flex;
         justify-content: space-between;
         margin-top: $gutter * 10;
+        align-items: center;
+
+        iframe {
+            border-radius: 15px;
+        }
 
         .text {
             width: 50%;

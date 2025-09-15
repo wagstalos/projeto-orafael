@@ -11,7 +11,7 @@
         position: absolute;
         top: 0;
         left: 0;
-        width: 100%;
+        width: 143%;
         height: 100%;
         object-fit: cover;
         z-index: 0;
@@ -72,6 +72,17 @@
                 top: -88px;
                 right: 23px;
                 max-width: 236px;
+            }
+        }
+    }
+
+    @include responsive(1000px) {
+        &__cards {
+            width: 70%;
+            gap: 10px;
+
+            .card {
+                max-width: 270px;
             }
         }
     }
